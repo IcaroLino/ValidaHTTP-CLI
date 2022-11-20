@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli": "node ./cli.js ./arquivos/texto.md",
-    "valida": "node ./cli.js ./arquivos/"
+    "valida": "node ./cli.js ./arquivos/ --valida"
   },
   "type": "module",
   "repository": {
