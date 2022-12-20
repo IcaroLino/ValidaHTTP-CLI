@@ -15,6 +15,10 @@ async function imprimirListaValidada(validador, listaLinks, id = '-') {
   );
 }
 
+function validaArquivo(links) {
+  return links !== 'Nenhum link encontrado no arquivo!';
+}
+
 async function processarArquivo(argumentos) {
   const caminho = argumentos[2];
   let validador = argumentos[3] === '--valida';
@@ -28,13 +32,13 @@ async function processarArquivo(argumentos) {
 
   if (fs.lstatSync(caminho).isFile()) {
     const links = await pegarLinksDoArquivo(caminho);
-    if (links === 'Nenhum link encontrado no arquivo!') validador = false;
+    validador = validaArquivo(links);
     imprimirListaValidada(validador, links);
   } else if (fs.lstatSync(caminho).isDirectory) {
     const arquivos = await fs.promises.readdir(caminho);
     arquivos.forEach(async (nomeArquivo) => {
       const links = await pegarLinksDoArquivo(`${caminho}/${nomeArquivo}`);
-      if (links === 'Nenhum link encontrado no arquivo!') validador = false;
+      validador = validaArquivo(links);
       imprimirListaValidada(validador, links, nomeArquivo);
     });
   }
