@@ -4,14 +4,11 @@
   <img alt="Badge_Status" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
 </p>
 
-## Descrição do projeto 
+## :scroll: Descrição do projeto 
 
-<p align="justify">Colocar em prática os conhecimentos em JavaScript com desafios diários durante sete dias!</p>
-
-## :pushpin: Desafios
-
-### :heavy_check_mark: Desafio 01
-
+<p align="justify">
+Aplicação via console que lê um arquivo de texto, extrai os links contido no arquivo e retorna um array de objetos de contendo o link e o status.
+</p>
 
 ## :triangular_ruler: Ferramentas utilizadas
 
