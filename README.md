@@ -4,7 +4,7 @@
   <img alt="Badge_Status" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
 </p>
 
-## :scroll: Descrição do projeto 
+## :page_facing_up: Descrição do projeto 
 
 <p align="justify">
 Aplicação via console que lê um arquivo de texto, extrai os links contido no arquivo e retorna um array de objetos de contendo o link e o status.
