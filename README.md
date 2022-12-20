@@ -10,6 +10,20 @@
 Aplicação via console que lê um arquivo de texto, extrai os links contido no arquivo e retorna um array de objetos de contendo o link e o status.
 </p>
 
+## :file_folder: Acesso ao projeto
+
+Você pode [baixar aqui o código do projeto](https://github.com/luizicaro/ValidaHTTP-CLI/archive/refs/heads/main.zip).
+
+## Abrir e rodar o projeto
+
+- Após baixar o projeto, use `npm install` para instalar as dependências do projeto;
+
+- Use `node cli.js caminho\nomeDoArquivo.md` para exibir a lista de links contida no arquivo;
+
+- Para visualizar a lista de links validada, use `node cli.js caminho\nomeDoArquivo.md --valida`;
+
+- Você também pode utilizar `npm run valida` para validar todos os arquivos de textos contidos na pasta arquivos;
+
 ## :triangular_ruler: Ferramentas utilizadas
 
 <a href="https://code.visualstudio.com/" target="_blank"><img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VSCode" width="40" height="40"/> </a>
