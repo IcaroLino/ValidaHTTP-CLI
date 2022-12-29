@@ -32,5 +32,5 @@ Você pode [baixar aqui o código do projeto](https://github.com/luizicaro/Valid
 
 ## :man_scientist: Desenvolvedor
 
-| [<img src="https://avatars.githubusercontent.com/u/12565014?s=400&v=4" width=115><br><sub>Ícaro Lino</sub>](https://github.com/luizicaro) | 
+| [<img src="https://avatars.githubusercontent.com/u/12565014?s=400&v=4" width=115><br><sub>Ícaro Lino</sub>](https://github.com/icarolino) | 
 | :---: | 
